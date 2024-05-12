@@ -1,0 +1,42 @@
+Map Bat = {
+  "GN": <String, String?>{
+    "bat_name": "Gray Nicollis hypernova 3.0",
+    "price": "\$172.0",
+    "image-front": "images/grayn.png",
+    "image-back": "images/gn-back-removebg-preview.png",
+    "image-side": "images/gn-side-removebg-preview.png",
+    "description": null,
+  },
+  "GM": <String, String?>{
+    "bat_name": 'GM bat silvercut 2.0',
+    "price": "\$240.0",
+    "image-front": "images/gm.png",
+    "image-back": "images/gm-back-removebg-preview.png",
+    "image-side": "images/gm-side-removebg.png",
+    "description": null,
+  },
+  "NB": <String, String?>{
+    "bat_name": 'New Balance Steve Smith edition',
+    "price": "\$190.0",
+    "image-front": "images/nb.png",
+    "image-back": "images/nb-back-removebg-preview.png",
+    "image-side": "images/nb-side-removebg-preview.png",
+    "description": null,
+  },
+  "SS": <String, String?>{
+    "bat_name": 'SS SKY NO LIMITS',
+    "price": "\$190.0",
+    "image-front": "images/surya.png",
+    "image-back": "images/ss-back-removebg-preview.png",
+    "image-side": "images/ss-side-removebg-preview.png",
+    "description": null,
+  },
+  "KK": <String, String?>{
+    "bat_name": 'KOOKABURA MARNUS ghost EDITON 2.0',
+    "price": "\$255.0",
+    "image-front": "images/ghost.png",
+    "image-side": "images/kk-side-removebg-preview.png",
+    "image-back": "images/kk-back-removebg-preview.png",
+    "description": null,
+  },
+};
