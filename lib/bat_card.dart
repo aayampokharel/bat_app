@@ -22,16 +22,20 @@ class bat_card extends StatelessWidget {
         color: Color.fromARGB(255, r, g, b),
         child: Container(
           height: 400,
-          width: 300,
+          width: MediaQuery.of(context).size.width * 0.90,
           padding: EdgeInsets.all(20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
                 bat,
-                style: Theme.of(context).textTheme.bodySmall,
+                style: TextStyle(
+                  fontFamily: 'fabrands',
+                  fontSize: 18,
+                ),
               ),
-              Text("$price"),
+              Text("$price",
+                  style: TextStyle(fontSize: 14, color: Colors.white70)),
               Image.asset(image, width: 200),
             ],
           ),
